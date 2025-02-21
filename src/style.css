@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reenie+Beanie&display=swap");
+@import "tailwindcss";
+
+* {
+  font-family: Poppins;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Reenie Beanie";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Reenie Beanie"),
+    url("https://fonts.gstatic.com/s/reeniebeanie/v22/z7NSdR76eDkaJKZJFkkjuvWxXPq1q9M.woff2")
+      format("woff2");
+}
+
+.reenie-beanie-regular {
+  font-family: "Reenie Beanie", cursive;
+}
+@theme {
+  --color-svay: #5d5fef;
+  --color-pteymek: #14b9d5;
+  --color-pkachouk: #ba71da;
+  --color-krohomsral: #f76570;
+  --color-tuekkroj: #f3a46b;
+  --color-baitong: #1bbc9b;
+}

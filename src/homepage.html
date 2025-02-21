@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Homepage</title>
+  </head>
+  <body>
+    <nav class="h-[80px] flex flex-row justify-evenly items-center">
+      <img src="../img/lgogo.png" alt="" class="w-[100px] h-auto" />
+      <ul class="md:flex md:flex-row justify-evenly w-[40%] hidden">
+        <li><a href="../src/homepage.html">Home</a></li>
+        <li><a href="../src/destinitionpage.html">Travel</a></li>
+        <li><a href="../src/singlepage.html">Pages</a></li>
+        <li>Shop</li>
+        <li>Blog</li>
+        <li>Contact Us</li>
+      </ul>
+      <div class="flex flex-row justify-evenly items-center gap-5">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-align-justify"
+        >
+          <path d="M3 12h18" />
+          <path d="M3 18h18" />
+          <path d="M3 6h18" />
+        </svg>
+        <button
+          class="lg:w-[122px] lg:h-[40px] lg:block rounded-xl p-1.5 bg-blue-800 text-white hover:bg-blue-400 hidden"
+        >
+          <a href="../src/search.html">Search</a>
+        </button>
+      </div>
+    </nav>
+    <main class="flex flex-col justify-center">
+      <!-- section1 -->
+      <section class="w-full h-[900px] flex flex-col lg:relative mt-[200px]">
+        <div class="flex flex-row w-[80%] h-[850px]">
+          <div class="absolute bg-gray-50 w-full">
+            <img
+              src="../img/map.png"
+              alt=""
+              class="opacity-30 m-auto w-full absolute object-cover h-[750px] hidden lg:block"
+            />
+          </div>
+          <div
+            class="lg:absolute lg:flex lg:flex-col lg:justify-evenly lg:top-[100px] lg:left-[235px]"
+          >
+            <p class="text-gray-600 text-sm m-5">LOVE TRAVEL THEME</p>
+            <h1 class="top-[60px] text-6xl font-extrabold mt-2">
+              <span>Adventure</span> <br />Experience <br />The Travel !
+            </h1>
+          </div>
+          <!-- navbar 2 -->
+          <div
+            class="absolute hidden left-[230px] bottom-[400px] lg:flex lg:flex-row lg:justify-evenly lg:items-center lg:gap-5 lg:p-5 w-[1130px] h-[100px] rounded-2xl bg-white drop-shadow-lg"
+          >
+            <div class="flex flex-row w-[282px] items-center gap-5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-search stroke-pteymek"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <path d="m21 21-4.3-4.3" />
+              </svg>
+              <div class="flex flex-col">
+                <h3 class="font-bold">Search</h3>
+                <p class="text-sm text-gray-400">Insert keyword</p>
+              </div>
+            </div>
+
+            <div class="flex flex-row items-center w-[282px] gap-6">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="25"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-map-pin stroke-pteymek"
+              >
+                <path
+                  d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              <div class="flex flex-col">
+                <h3 class="font-bold">Destinations</h3>
+                <p class="text-sm text-gray-400">All Destinations</p>
+              </div>
+            </div>
+
+            <div class="flex flex-row w-[282px] items-center gap-6">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-earth stroke-pteymek"
+              >
+                <path d="M21.54 15H17a2 2 0 0 0-2 2v4.54" />
+                <path
+                  d="M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17"
+                />
+                <path
+                  d="M11 21.95V18a2 2 0 0 0-2-2a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"
+                />
+                <circle cx="12" cy="12" r="10" />
+              </svg>
+              <div class="flex flex-col">
+                <h3 class="font-bold">Typologies</h3>
+                <p class="text-sm text-gray-400">All Typologies</p>
+              </div>
+            </div>
+            <div>
+              <button
+                class="bg-svay h-[65px] w-[282px] p-3 rounded-xl text-white"
+              >
+                SEARCH
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section2 -->
+
+      <section class="w-full lg:h-[1400px] flex flex-col">
+        <div class="lg:flex lg:flex-row lg:justify-evenly lg:items-center">
+          <div class="lg:w-[640px] md:w-full p-5 flex flex-col gap-5">
+            <p class="reenie-beanie-regular text-2xl text-pink-600">
+              Dream Vacation Destination
+            </p>
+            <h1 class="lg:text-5xl text-2xl font-bold">
+              Plan the Trip of a Lifetime with Ease
+            </h1>
+            <p class="text-gray-500">
+              Whether you're looking for a romantic getaway, a family-friendly
+              adventure, or a solo journey to explore the world, a travel agency
+              can provide you with a custom-tailored itinerary that exceeds your
+              expectations.
+            </p>
+            <button
+              class="bg-svay w-[130px] h-[50px] rounded-lg font-bold text-white"
+            >
+              More Info
+            </button>
+          </div>
+          <div>
+            <img
+              src="../img/map.png"
+              alt=""
+              class="lg:w-[500px] hidden opacity-20"
+            />
+          </div>
+        </div>
+        <div
+          class="flex lg:flex-col m-auto w-full lg:justify-evenly lg:items-center lg:mt-20 md:flex-row"
+        >
+          <div class="flex lg:flex-row m-auto flex-col lg:gap-15 gap-3">
+            <div class="relative w-[420px] rounded-lg overflow-hidden">
+              <img
+                src="../img/2.png"
+                alt=""
+                class="w-full object-cover rounded-2xl"
+              />
+              <div
+                class="absolute w-full top-1/2 right-10 -translate-y-1/2 flex flex-row justify-evenly items-center"
+              >
+                <div>
+                  <img
+                    src="../img/location'.png"
+                    alt=""
+                    class="w-[80px] h-[80px]"
+                  />
+                </div>
+                <div>
+                  <p class="text-white font-bold text-lg">City Tour Walk</p>
+                </div>
+              </div>
+            </div>
+            <div class="relative w-[420px] rounded-lg overflow-hidden">
+              <img
+                src="../img/1.jpg"
+                alt=""
+                class="w-full object-cover rounded-2xl"
+              />
+              <div
+                class="absolute w-full top-1/2 right-10 -translate-y-1/2 flex flex-row justify-evenly items-center"
+              >
+                <div>
+                  <img
+                    src="../img/piramid.png"
+                    alt=""
+                    class="w-[80px] h-[80px]"
+                  />
+                </div>
+                <div>
+                  <p class="text-white font-bold text-lg">Electric Bike</p>
+                </div>
+              </div>
+            </div>
+            <div class="relative w-[420px] rounded-lg overflow-hidden">
+              <img
+                src="../img/3.jpg"
+                alt=""
+                class="lg:w-full object-cover rounded-2xl"
+              />
+              <div
+                class="absolute w-full top-1/2 right-10 -translate-y-1/2 flex flex-row justify-evenly items-center"
+              >
+                <div>
+                  <img src="../img/gate.png" alt="" class="w-[80px] h-[80px]" />
+                </div>
+                <div>
+                  <p class="text-white font-bold text-lg">Skyscrapers View</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- All Card -->
+        <div class="flex w-full flex-col justify-evenly items-center mt-20">
+          <!-- card1 -->
+          <div class="flex lg:flex-row flex-col gap-5 lg:gap-15">
+            <div
+              class="w-[420px] bg-white border-black rounded-b-2xl drop-shadow-md"
+            >
+              <a href="#">
+                <img
+                  class="rounded-t-2xl w-full h-[270px] object-cover"
+                  src="../img/06638a851bd17f7057bcf6fa1bb04afc.jpg"
+                  alt=""
+                />
+              </a>
+              <div class="px-7 py-10">
+                <div
+                  class="flex flex-row bg-gray-50 p-3 m-auto rounded-lg drop-shadow-lg justify-between w-full"
+                >
+                  <div class="flex flex-row justify-between gap-5 items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-clock fill-svay stroke-white"
+                    >
+                      <circle cx="12" cy="12" r="10" />
+                      <polyline points="12 6 12 12 16 14" />
+                    </svg>
+                    <p class="text-gray-600">1 Week</p>
+                  </div>
+                  <div class="flex flex-row justify-between gap-5 items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-mail fill-svay stroke-white"
+                    >
+                      <rect width="20" height="16" x="2" y="4" rx="2" />
+                      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                    </svg>
+                    <img src="../img/roadmap.svg" alt="" />
+                  </div>
+                </div>
+                <div class="mt-10">
+                  <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight">
+                      Phnom Penh
+                    </h5>
+                    <div class="flex flex-row gap-3 items-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="25"
+                        height="25"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-map-pin fill-svay stroke-white"
+                      >
+                        <path
+                          d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                        />
+                        <circle cx="12" cy="10" r="3" />
+                      </svg>
+                      <p>Cambodia</p>
+                    </div>
+                  </a>
+                  <p
+                    class="mb-3 font-normal text-gray-700 dark:text-gray-400 border-t-1 border-b-1 py-5 my-5"
+                  >
+                    Visit the temples and the Awesome Experience, a huge huge
+                    market located Beside TonleSab River.
+                  </p>
+                  <div class="flex flex-row justify-between items-center">
+                    <button
+                      class="w-[110px] h-[40px] bg-svay font-bold rounded-lg text-white"
+                    >
+                      Details
+                    </button>
+                    <div class="flex flex-col">
+                      <p class="text-gray-600 text-end">From</p>
+                      <h3 class="font-extrabold text-2xl">$490</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 2  -->
+            <div
+              class="w-[420px] bg-white border-black rounded-b-2xl drop-shadow-md"
+              z
+            >
+              <img
+                class="rounded-t-2xl w-full h-[270px] object-cover relative"
+                src="../img/sea.jpg"
+                alt=""
+              />
+              <p
+                class="text-white bg-pteymek p-1 text-sm text-center rounded-xl w-[90px] absolute right-[10px] top-[10px]"
+              >
+                SALE
+              </p>
+              <div class="px-7 py-10">
+                <div
+                  class="flex flex-row bg-gray-50 p-3 m-auto rounded-lg drop-shadow-lg justify-between w-full"
+                >
+                  <div class="flex flex-row justify-between gap-5 items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-clock fill-pteymek stroke-white"
+                    >
+                      <circle cx="12" cy="12" r="10" />
+                      <polyline points="12 6 12 12 16 14" />
+                    </svg>
+                    <p class="text-gray-600">5 Days</p>
+                  </div>
+                  <div class="flex flex-row justify-between gap-5 items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-mail fill-pteymek stroke-white"
+                    >
+                      <rect width="20" height="16" x="2" y="4" rx="2" />
+                      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                    </svg>
+                    <img src="../img/Symbol (2).svg" alt="" />
+                  </div>
+                </div>
+                <div class="mt-10">
+                  <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight">
+                      Siem Reap
+                    </h5>
+                    <div class="flex flex-row gap-3 items-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="25"
+                        height="25"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-map-pin fill-pteymek stroke-white"
+                      >
+                        <path
+                          d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                        />
+                        <circle cx="12" cy="10" r="3" />
+                      </svg>
+                      <p>Cambodia</p>
+                    </div>
+                  </a>
+                  <p
+                    class="mb-3 font-normal text-gray-700 dark:text-gray-400 border-t-1 border-b-1 py-5 my-5"
+                  >
+                    Visit the temples and the Awesome Experience, a huge huge
+                    market located Beside TonleSab River.
+                  </p>
+                  <div class="flex flex-row justify-between items-center">
+                    <button
+                      class="w-[110px] h-[40px] bg-pteymek font-bold rounded-lg text-white"
+                    >
+                      Details
+                    </button>
+                    <div class="flex flex-col">
+                      <p class="text-gray-600 text-end">From</p>
+                      <div class="flex flex-row items-center">
+                        <h3 class="font-extrabold text-2xl">$ 98</h3>
+                        <p
+                          class="line-through text-sm font-semibold text-gray-400"
+                        >
+                          $ 134
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 3  -->
+
+            <div
+              class="w-[420px] bg-white border-black rounded-b-2xl drop-shadow-md"
+            >
+              <img
+                class="rounded-t-2xl w-full h-[270px] object-cover relative"
+                src="../img/sunset.jpg"
+                alt=""
+              />
+              <p
+                class="text-white bg-pkachouk p-1 text-sm text-center rounded-xl w-[90px] absolute right-[10px] top-[10px]"
+              >
+                SALE
+              </p>
+              <div class="px-7 py-10">
+                <div
+                  class="flex flex-row bg-gray-50 p-3 m-auto rounded-lg drop-shadow-lg justify-between w-full"
+                >
+                  <div class="flex flex-row justify-between gap-5 items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-clock fill-pkachouk stroke-white"
+                    >
+                      <circle cx="12" cy="12" r="10" />
+                      <polyline points="12 6 12 12 16 14" />
+                    </svg>
+                    <p class="text-gray-600">10 days</p>
+                  </div>
+                  <div class="flex flex-row justify-between gap-5 items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-mail fill-pkachouk stroke-white"
+                    >
+                      <rect width="20" height="16" x="2" y="4" rx="2" />
+                      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                    </svg>
+                    <img
+                      src="../img/Symbol (1).svg"
+                      alt=""
+                      class="fill-pkachouk"
+                    />
+                  </div>
+                </div>
+                <div class="mt-10">
+                  <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight">
+                      Preah Sihanouk
+                    </h5>
+                    <div class="flex flex-row gap-3 items-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="25"
+                        height="25"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-map-pin fill-pkachouk stroke-white"
+                      >
+                        <path
+                          d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                        />
+                        <circle cx="12" cy="10" r="3" />
+                      </svg>
+                      <p>Cambodia</p>
+                    </div>
+                  </a>
+                  <p
+                    class="mb-3 font-normal text-gray-700 dark:text-gray-400 border-t-1 border-b-1 py-5 my-5"
+                  >
+                    Visit the temples and the Awesome Experience, a huge huge
+                    market located Beside TonleSab River.
+                  </p>
+                  <div class="flex flex-row justify-between items-center">
+                    <button
+                      class="w-[110px] h-[40px] bg-pkachouk fill-pkachouk rounded-lg text-white"
+                    >
+                      Details
+                    </button>
+                    <div class="flex flex-col">
+                      <p class="text-gray-600 text-end">From</p>
+                      <div class="flex flex-row items-center">
+                        <h3 class="font-extrabold text-2xl">$ 1000</h3>
+                        <p
+                          class="line-through text-sm font-semibold text-gray-400"
+                        >
+                          $ 1023
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section 3  -->
+      <section
+        class="w-full h-[590px] flex flex-col justify-evenly bg-gray-200 mt-[100px]"
+      >
+        <div class="m-auto flex flex-col gap-10">
+          <div
+            class="flex flex-col justify-center items-center gap-5 text-center mt-10"
+          >
+            <p class="reenie-beanie-regular text-pkachouk text-4xl">
+              Choose your Trip
+            </p>
+            <h1 class="text-3xl font-bold">Start your Vacation Now</h1>
+            <p class="text-md text-gray-400">
+              Looking for your dream vacation destination but don't know where
+              to start? With the help <br />
+              of <br />
+              experienced and knowledgeable travel agents, you can plan the trip
+              of a lifetime with ease.
+            </p>
+          </div>
+          <!-- navbar 3  -->
+
+          <div
+            class="lg:flex lg:flex-row hidden justify-evenly items-center m-auto gap-5 p-5 lg:w-[1250px] lg:h-[100px] rounded-2xl bg-white drop-shadow-lg"
+          >
+            <div class="flex flex-row w-[282px] items-center gap-5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-search stroke-tuekkroj"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <path d="m21 21-4.3-4.3" />
+              </svg>
+              <div class="flex flex-col">
+                <h3 class="font-bold">Search</h3>
+                <p class="text-sm text-gray-400">Insert keyword</p>
+              </div>
+            </div>
+
+            <div class="flex flex-row items-center w-[282px] gap-6">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="25"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-map-pin stroke-tuekkroj"
+              >
+                <path
+                  d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              <div class="flex flex-col">
+                <h3 class="font-bold">Destinations</h3>
+                <p class="text-sm text-gray-400">All Destinations</p>
+              </div>
+            </div>
+
+            <div class="flex flex-row w-[282px] items-center gap-6">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-earth stroke-tuekkroj"
+              >
+                <path d="M21.54 15H17a2 2 0 0 0-2 2v4.54" />
+                <path
+                  d="M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17"
+                />
+                <path
+                  d="M11 21.95V18a2 2 0 0 0-2-2a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"
+                />
+                <circle cx="12" cy="12" r="10" />
+              </svg>
+              <div class="flex flex-col">
+                <h3 class="font-bold">Typologies</h3>
+                <p class="text-sm text-gray-400">All Typologies</p>
+              </div>
+            </div>
+            <div>
+              <button
+                class="bg-krohomsral font-bold h-[65px] w-[282px] p-3 rounded-xl text-white"
+              >
+                SEARCH
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section 4  -->
+
+      <section class="w-full flex flex-col mt-[100px]">
+        <div
+          class="m-auto flex flex-row flex-wrap justify-evenly gap-15 items-center mb-[100px]"
+        >
+          <div class="flex flex-col justify-evenly lg:w-[1340px]">
+            <div class="lg:w-[620px] flex-col gap-20 h-[261px]">
+              <div class="lg:w-[620px] w-full flex flex-col p-5 gap-5 m-auto">
+                <p
+                  class="reenie-beanie-regular text-2xl text-pink-600 w-[380px] lg:w-full"
+                >
+                  Next Adventure
+                </p>
+                <h1 class="lg:text-5xl text-2xl font-bold lg:w-full w-[380px]">
+                  Travel Destinations Available Worldwide
+                </h1>
+                <p class="text-gray-500 lg:w-full w-[380px]">
+                  We have compiled a list of top destinations across the globe,
+                  scoured the world for the most alluring and fascinating places
+                  to visit. From the beautiful beaches of the Caribbean to the
+                  majestic mountains of Europe and the vibrant cities of Asia,
+                  our destination list has something for everyone.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex lg:flex-row flex-col gap-15 m-auto">
+          <!-- card1 -->
+          <div class="h-[400px] w-[300px] relative">
+            <img
+              src="../img/greece.jpg"
+              alt=""
+              class="w-full h-full object-cover absolute rounded-2xl"
+            />
+            <div
+              class="w-full h-full z-9 backdrop-brightness-70 hover:backdrop-brightness-50 rounded-2xl"
+            ></div>
+            <div class="w-full h-full absolute text-center top-[290px] z-10">
+              <h1 class="text-2xl font-bold text-white">Greece</h1>
+              <p class="text-sm text-white">
+                Experience the ancient history & <br />beaches
+              </p>
+            </div>
+          </div>
+          <div class="h-[400px] w-[300px] relative">
+            <img
+              src="../img/china.jpg"
+              alt=""
+              class="w-full h-full object-cover absolute rounded-2xl"
+            />
+            <div
+              class="w-full h-full z-9 backdrop-brightness-70 hover:backdrop-brightness-50 rounded-2xl"
+            ></div>
+            <div class="w-full h-full absolute text-center top-[290px] z-10">
+              <h1 class="text-2xl font-bold text-white">China</h1>
+              <p class="text-sm text-white">
+                Discover the land of pharaohs & <br />pyramids
+              </p>
+            </div>
+          </div>
+          <div class="h-[400px] w-[300px] relative">
+            <img
+              src="../img/paris.jpg"
+              alt=""
+              class="w-full h-full object-cover absolute rounded-2xl"
+            />
+            <div
+              class="w-full h-full z-9 backdrop-brightness-70 hover:backdrop-brightness-50 rounded-2xl"
+            ></div>
+            <div class="w-full h-full absolute text-center top-[290px] z-10">
+              <h1 class="text-2xl font-bold text-white">France</h1>
+              <p class="text-sm text-white">
+                Embark on a journey for your<br />lifetime
+              </p>
+            </div>
+          </div>
+          <div class="h-[400px] w-[300px] relative">
+            <img
+              src="../img/sea.jpg"
+              alt=""
+              class="w-full h-full object-cover absolute rounded-2xl"
+            />
+            <div
+              class="w-full h-full z-9 backdrop-brightness-70 hover:backdrop-brightness-50 rounded-2xl"
+            ></div>
+            <div class="w-full h-full absolute text-center top-[290px] z-10">
+              <h1 class="text-2xl font-bold text-white">Spain</h1>
+              <p class="text-sm text-white">
+                Indulge in the art, culture, and<br />cuisine
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section 5 -->
+
+      <section
+        class="flex flex-col justify-evenly w-full items-center mt-20 gap-10 relative"
+      >
+        <div
+          class="w-full h-[840px] bg-[url('../img/section-image1.jpg')] bg-cover bg-center relative"
+        >
+          <div
+            class="w-full h-full inset-0 bg-gradient-to-l from-black/80 to-transparent absolute"
+          ></div>
+
+          <div
+            class="w-full mx-auto flex flex-col lg:flex-row items-center justify-center gap-10 px-6 lg:px-20 absolute top-1/2 transform -translate-y-1/2"
+          >
+            <!-- Image -->
+            <div class="w-full lg:w-[50%]">
+              <img
+                src="../img/06638a851bd17f7057bcf6fa1bb04afc.jpg"
+                alt="Adventure Image"
+                class="w-full h-auto max-h-[520px] object-cover rounded-lg shadow-lg"
+              />
+            </div>
+
+            <!-- Text Content -->
+            <div
+              class="w-full lg:w-[50%] text-center lg:text-left flex flex-col justify-evenly gap-5"
+            >
+              <p class="text-2xl md:text-3xl text-white font-cursive">
+                Adventure Travel
+              </p>
+              <h1 class="text-3xl md:text-5xl text-white font-extrabold">
+                Embrace the Thrill of the Unknown
+              </h1>
+              <p class="text-white text-sm md:text-base leading-relaxed">
+                Are you tired of the typical tourist destinations and looking to
+                step out of your comfort zone? Adventure travel may be the
+                perfect solution for you! Here are four reasons why you should
+                book an adventure travel experience:
+              </p>
+              <ul class="text-white list-disc pl-6 space-y-3">
+                <li>Connect with nature</li>
+                <li>Experience other cultures</li>
+                <li>Create unforgettable memories</li>
+              </ul>
+              <div class="flex justify-center lg:justify-start">
+                <button
+                  class="w-[150px] p-3 rounded-lg bg-svay text-sm text-white hover:bg-svay-dark transition"
+                >
+                  All Services
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 6 -->
+
+      <section class="w-full flex flex-col my-[100px] gap-10">
+        <h1 class="font-bold lg:text-7xl text-2xl text-center">
+          Travel Itineraries
+        </h1>
+        <div class="m-auto">
+          <iframe
+            class="lg:w-[1350px] lg:h-[780px] sm:w-[390px] sm:h-[450px] md:[720px]"
+            src="https://www.youtube.com/embed/REDVbTQxMXo?si=tnQKayz-tLaaarMJ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div
+          class="flex lg:flex-row flex-col flex-wrap justify-between p-3 items-center lg:w-[1350px] w-full m-auto"
+        >
+          <img
+            src="../img/sponsor1.png"
+            alt=""
+            class="lg:w-[264px] size-[80px]"
+          />
+          <img
+            src="../img/sponsor2.png"
+            alt=""
+            class="lg:w-[264px] size-[80px]"
+          />
+          <img
+            src="../img/sponsor3.png"
+            alt=""
+            class="lg:w-[264px] size-[80px]"
+          />
+          <img
+            src="../img/sponsor4.png"
+            alt=""
+            class="lg:w-[264px] size-[80px]"
+          />
+          <img
+            src="../img/sponsor5.png"
+            alt=""
+            class="lg:w-[264px] size-[80px]"
+          />
+        </div>
+      </section>
+
+      <!-- Section 7  -->
+      <section>
+        <div
+          class="w-full h-[840px] bg-[url('../img/china.jpg')] bg-center bg-no-repeat lg:relative"
+        >
+          <div
+            class="w-full h-[840px] bg-gradient-to-tr from-black/50 to-transparent absolute z-9"
+          ></div>
+          <div class="w-full h-full flex flex-col absolute z-10">
+            <div class="flex flex-col m-auto lg:w-[1280px] gap-5">
+              <h1
+                class="text-white lg:font-extrabold lg:text-5xl text-2xl lg:leading-16"
+              >
+                Unforgettable Travel <br />
+                Experiences
+              </h1>
+              <p class="text-sm text-white lg:w-[600px]">
+                Our customer's feedback is essential in building a great
+                reputation and maintaining excellent service. By listening to
+                our customer's needs, we can improve our offerings and provide
+                an exceptional travel experience.
+              </p>
+            </div>
+            <div class="flex lg:flex-row flex-col m-auto lg:w-[1280px] gap-5">
+              <!-- card-pf1 -->
+              <div
+                class="bg-svay p-10 flex flex-col lg:w-[640px] w-full lg:h-[290px] h-[200px] gap-3 rounded-2xl"
+              >
+                <div class="lg:h-[145px] lg:w-[500px] w-full">
+                  <h3 class="text-white lg:text-2xl">
+                    My husband and I have been using this travel agency for
+                    years and they have never disappointed us.
+                  </h3>
+                </div>
+
+                <div class="flex flex-row items-center gap-5 h-[145px]">
+                  <img
+                    src="../img/pf1.jpg"
+                    alt=""
+                    class="w-[40px] h-[40px] rounded-3xl"
+                  />
+                  <div class="flex flex-col w-[150px]">
+                    <h3 class="text-white font-bold">Jennifer and Mark</h3>
+                    <p class="text-white text-sm">San Francisco</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- card-pf-2 -->
+              <div
+                class="bg-svay p-10 flex-col lg:w-[640px] h-[290px] gap-3 lg:block hidden rounded-2xl"
+              >
+                <div class="lg:h-[145px] lg:w-[500px]">
+                  <h3 class="text-white lg:text-2xl">
+                    This travel agency made my dream trip to Europe a reality.
+                    They worked with me every step of the way to plan the
+                    itinerary.
+                  </h3>
+                </div>
+
+                <div class="flex flex-row items-center gap-5 h-[145px]">
+                  <img
+                    src="../img/pf-2.jpg"
+                    alt=""
+                    class="w-[40px] h-[40px] rounded-3xl"
+                  />
+                  <div class="flex flex-col lg:w-[150px]">
+                    <h3 class="text-white font-bold">Dylan and Emily</h3>
+                    <p class="text-white text-sm">Miami</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 8 -->
+      <section
+        class="w-full flex flex-col mt-[100px] items-center justify-baseline"
+      >
+        <div class="text-center lg:w-[1180px] w-full flex flex-col gap-5 mb-20">
+          <p class="reenie-beanie-regular text-svay text-xl lg:text-3xl">
+            Clear Price
+          </p>
+          <h1 class="lg:text-5xl text-2xl font-bold">
+            Affordable Travel Packages
+          </h1>
+          <p class="text-gray-500 lg:w-[850px] w-full m-auto">
+            We believe that everyone deserves to experience their dream vacation
+            without breaking the bank. That's why we offer a price section on
+            our website that features a range of affordable travel
+          </p>
+        </div>
+        <div
+          class="flex lg:flex-row flex-col gap-5 lg:w-[1180px] items-center m-auto"
+        >
+          <!-- card1 -->
+          <div
+            class="w-[460px] max-w-sm m-auto p-10 bg-gray-200 border text-center border-gray-200 rounded-2xl shadow-sm"
+          >
+            <div class="w-full m-auto text-center">
+              <h5 class="mb-4 text-2xl font-bold text-black">Half Board</h5>
+              <div
+                class="flex m-auto text-center items-baseline text-black w-full"
+              >
+                <h2 class="text-5xl w-full font-extrabold tracking-tight">
+                  $ 50
+                  <span class="ms-1 text-xl w-full font-normal text-black"
+                    >/Day</span
+                  >
+                </h2>
+              </div>
+            </div>
+            <div class="w-full m-auto">
+              <ul role="list" class="space-y-5 my-7 w-full m-auto">
+                <li class="flex flex-col items-center">
+                  <p class="font-normal leading-tight text-black">
+                    Meals in Restaurants
+                  </p>
+                </li>
+                <li class="flex flex-col items-center">
+                  <p class="font-normal leading-tight text-black">
+                    Alcoholic beverages
+                  </p>
+                </li>
+                <li class="flex flex-col items-center">
+                  <p class="font-normal leading-tight text-black">
+                    Minimum 3 Star Hotel
+                  </p>
+                </li>
+                <li class="flex flex-col items-center">
+                  <p class="font-normal leading-tight text-black">
+                    Transfers from Airport
+                  </p>
+                </li>
+                <li class="flex flex-col items-center">
+                  <p class="font-normal leading-tight text-black">
+                    Incl. Museum Tickets
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <button
+              type="button"
+              class="text-white hover:text-white bg-svay hover:bg-black focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center text-center"
+            >
+              VIEW ALL
+            </button>
+          </div>
+          <!-- card2 -->
+          <div
+            class="w-[460px] h-[500px] max-w-sm m-auto p-10 bg-svay border text-center border-gray-200 rounded-2xl shadow-sm"
+          >
+            <div class="w-full m-auto text-center">
+              <h5 class="mb-4 text-2xl font-bold text-white">All Inclusive</h5>
+              <div
+                class="flex m-auto text-center items-baseline text-white w-full"
+              >
+                <h2 class="text-5xl w-full font-extrabold tracking-tight">
+                  $ 32
+                  <span class="ms-1 text-xl w-full font-normal text-white"
+                    >/Day</span
+                  >
+                </h2>
+              </div>
+            </div>
+            <div class="w-full m-auto">
+              <ul role="list" class="space-y-5 my-7 w-full m-auto">
+                <li class="flex flex-col items-center">
+                  <p class="font-normal leading-tight text-white">
+                    Meals in Restaurants
+                  </p>
+                </li>
+                <li class="flex flex-col items-center">
+                  <p class="font-normal leading-tight text-white">
+                    Alcoholic beverages
+                  </p>
+                </li>
+                <li class="flex flex-col items-center">
+                  <p class="font-normal leading-tight text-white">
+                    Minimum 3 Star Hotel
+                  </p>
+                </li>
+                <li class="flex flex-col items-center">
+                  <p class="font-normal leading-tight text-white">
+                    Transfers from Airport
+                  </p>
+                </li>
+                <li class="flex flex-col items-center">
+                  <p class="font-normal leading-tight text-white">
+                    Incl. Museum Tickets
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <button
+              type="button"
+              class="text-white hover:text-black bg-gray-700 hover:bg-gray-300 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center text-center"
+            >
+              VIEW ALL
+            </button>
+          </div>
+          <!-- card3 -->
+          <div
+            class="w-[460px] max-w-sm m-auto p-10 bg-gray-800 border text-center border-gray-200 rounded-2xl shadow-sm relative"
+          >
+            <p
+              class="text-white bg-svay p-1 text-sm text-center rounded-xl w-[90px] absolute right-[10px] top-[10px]"
+            >
+              POPULAR
+            </p>
+            <div class="w-full m-auto text-center">
+              <h5 class="mb-4 text-xl text-white">Excursions Included</h5>
+              <div
+                class="flex m-auto text-center items-baseline text-white w-full"
+              >
+                <h2 class="text-5xl w-full font-extrabold tracking-tight">
+                  $ 68
+                  <span class="ms-1 text-xl w-full font-normal text-white"
+                    >/Day</span
+                  >
+                </h2>
+              </div>
+            </div>
+            <div class="w-full m-auto">
+              <ul role="list" class="space-y-5 my-7 w-full m-auto">
+                <li class="flex flex-col items-center">
+                  <p class="font-normal leading-tight text-white">
+                    Minimum 3 Star Hotel
+                  </p>
+                </li>
+                <li class="flex flex-col items-center">
+                  <p class="font-normal leading-tight text-white">
+                    Meals in Restaurants
+                  </p>
+                </li>
+                <li class="flex flex-col items-center">
+                  <p class="font-normal leading-tight text-white">
+                    Incl. Museum Tickets
+                  </p>
+                </li>
+                <li class="flex flex-col items-center">
+                  <p class="font-normal leading-tight text-white">
+                    Meals in Restaurants
+                  </p>
+                </li>
+                <li class="flex flex-col items-center">
+                  <p class="font-normal leading-tight text-white">
+                    Alcoholic beverages
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <button
+              type="button"
+              class="text-white hover:text-black bg-svay hover:bg-gray-300 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center text-center"
+            >
+              VIEW ALL
+            </button>
+          </div>
+        </div>
+        <p class="text-center m-5">
+          &copy; All trips include medical insurance
+        </p>
+      </section>
+      <!-- Section 9  -->
+      <section
+        class="lg:w-full flex flex-col mt-[100px] items-center justify-baseline"
+      >
+        <div
+          class="lg:w-[1350px] h-[510px] flex flex-row justify-evenly items-center"
+        >
+          <div class="lg:w-[610px] m-auto h-full flex flex-col gap-6">
+            <p class="reenie-beanie-regular text-pkachouk text-3xl">
+              Wandering Souls
+            </p>
+            <h1 class="lg:text-5xl text-xl lg:font-extrabold">
+              Discover Your Next Adventure
+            </h1>
+            <p class="text-gray-500">
+              Whether you're planning a romantic honeymoon or a family vacation,
+              our price section has got you covered. So, start browsing today
+              and find the perfect vacation package at a price that won't leave
+              you feeling guilty.
+            </p>
+            <p class="text-gray-500 mb-8">Organized Group Tour</p>
+            <hr class="h-1 rounded-2xl lg:block hidden w-[500px] bg-gray-700" />
+            <p class="text-gray-500">Single Customized Trip</p>
+            <hr class="h-1 rounded-2xl lg:block hidden w-[400px] bg-gray-700" />
+            <button
+              class="bg-svay uppercase p-3 lg:w-[150px] rounded-lg text-white"
+            >
+              more info
+            </button>
+          </div>
+          <div class="lg:w-[710px] lg:block hidden h-full">
+            <img
+              src="../img/pagoda.jpg"
+              alt=""
+              class="lg:w-[700px] lg:h-full rounded-l-[277.5px]"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- section10 -->
+
+      <section
+        class="w-full flex flex-col lg:mt-[100px] mt-12 items-center justify-baseline"
+      >
+        <div class="text-center lg:w-[1180px] w-full flex flex-col gap-5 mb-20">
+          <p class="reenie-beanie-regular text-svay lg:text-3xl">
+            Roaming Tales
+          </p>
+          <h1 class="lg:text-5xl font-bold">Travel Blog</h1>
+          <p class="text-gray-500 lg:w-[850px] w-full m-auto">
+            We share our experiences, tips and travel stories to inspire and
+            guide our readers in their own wanderlust adventures. From hidden
+            gems to popular destinations, we showcase the beauty and diversity
+            of the world, and promote responsible and sustainable travel.
+          </p>
+        </div>
+        <div
+          class="lg:w-[1350px] flex lg:flex-row mt-5 flex-wrap m-auto mb-[100px]"
+        >
+          <div class="flex flex-col lg:w-[675px] w-full h-auto gap-10">
+            <img
+              src="../img/derlg1.jpg"
+              alt=""
+              class="lg:w-[635px] lg:h-[425px] w-full h-auto rounded-2xl"
+            />
+            <p
+              class="bg-gray-700 p-1 text-center font-bold lg:w-[150px] rounded-lg text-white"
+            >
+              April 7, 2023
+            </p>
+            <h3 class="lg:text-3xl font-bold">Plan the Perfect Vacation</h3>
+            <p class="lg:w-[635px]">
+              Planning a vacation can be overwhelming, but this post offers a
+              step-by-step guide to help readers create a comprehensive travel
+              itinerary. From choosing a destination to booking accommodations
+              and activities, readers will learn how to plan a stress-free and
+              enjoyable trip.
+            </p>
+            <button
+              class="capitalize text-white w-[150px] bg-svay p-3 text-center rounded-xl text-lg font-bold"
+            >
+              read more
+            </button>
+          </div>
+          <div class="lg:flex flex-col lg:w-[675px] hidden gap-10">
+            <!-- card-and content 1 -->
+            <div class="w-[635px] flex gap-5">
+              <img
+                src="../img/section-image1.jpg"
+                alt=""
+                class="w-[207px] h-[140px] rounded-2xl bg-cover"
+              />
+              <div class="flex flex-col gap-5">
+                <p
+                  class="bg-svay text-sm text-white rounded-lg w-[120px] font-bold text-center"
+                >
+                  April 7, 2023
+                </p>
+                <h3 class="text-3xl font-bold">Discover the Hidden Gems</h3>
+                <p class="text-gray-500">
+                  Benefits of traveling alone, from the freedom to discover new
+                  places with new friends.
+                </p>
+              </div>
+            </div>
+            <!-- card-and content 2 -->
+            <div class="w-[635px] flex gap-5">
+              <img
+                src="../img/card-con1.jpg"
+                alt=""
+                class="w-[207px] h-[140px] rounded-2xl bg-cover"
+              />
+              <div class="flex flex-col gap-5">
+                <p
+                  class="bg-svay text-sm text-white rounded-lg w-[120px] font-bold text-center"
+                >
+                  April 7, 2023
+                </p>
+                <h3 class="text-3xl font-bold">Must-See Landmarks</h3>
+                <p class="text-gray-500">
+                  Iconic landmarks that make Europe one of the world's most
+                  popular travel destinations.
+                </p>
+              </div>
+            </div>
+            <!-- card-and content 3 -->
+            <div class="w-[635px] flex gap-5">
+              <img
+                src="../img/card-con2.jpg"
+                alt=""
+                class="w-[207px] h-[140px] rounded-2xl bg-cover"
+              />
+              <div class="flex flex-col gap-5">
+                <p
+                  class="bg-svay text-sm text-white rounded-lg w-[120px] font-bold text-center"
+                >
+                  April 7, 2023
+                </p>
+                <h3 class="text-3xl font-bold">Traveling on a Budget</h3>
+                <p class="text-gray-500">
+                  Practical advice for travelers who want to see the world
+                  without breaking the bank.
+                </p>
+              </div>
+            </div>
+            <!-- card-and content 4-->
+            <div class="w-[635px] flex gap-5">
+              <img
+                src="../img/card-con3.jpg"
+                alt=""
+                class="w-[207px] h-[140px] rounded-2xl bg-cover"
+              />
+              <div class="flex flex-col gap-5">
+                <p
+                  class="bg-svay text-sm text-white rounded-lg w-[120px] font-bold text-center"
+                >
+                  April 7, 2023
+                </p>
+                <h3 class="text-3xl font-bold">Explore the Wonders</h3>
+                <p class="text-gray-500">
+                  Must-see destinations and experiences, including wildlife and
+                  cultural experiences.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- end main -->
+
+    <!-- startfooter -->
+    <footer class="w-full flex flex-row flex-wrap relative">
+      <div
+        class="w-full h-[474px] bg-[url('../img/footerimage.jpg')] bg-center bg-no-repeat relative"
+      >
+        <div
+          class="w-full h-[474px] bg-gray-500 opacity-50 absolute brightness-50"
+        ></div>
+
+        <div class="lg:w-[1350px] m-auto h-full lg:flex lg:flex-row gap-10">
+          <div class="flex flex-col m-auto lg:w-[450px] gap-5">
+            <h1 class="text-white font-extrabold lg:text-4xl leading-16 z-10">
+              Travel beyond your <br />imagination, with our <br />
+              Travel Agency!
+            </h1>
+          </div>
+          <div class="w-[450px] flex flex-row m-auto flex-wrap lg:z-100">
+            <div class="flex flex-col gap-5 z-100">
+              <h1 class="text-white font-bold text-xl">Address</h1>
+              <p class="text-white">1080 Brickell Ave</p>
+              <p class="text-white">Miami - Florida</p>
+              <p class="text-white">U.S. of America</p>
+              <div class="flex flex-row gap-5">
+                <!-- facebook -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="white"
+                  stroke="none"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-facebook"
+                >
+                  <path
+                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                  />
+                </svg>
+
+                <!--  twitter-->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="white"
+                  stroke="none"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-twitter"
+                >
+                  <path
+                    d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"
+                  />
+                </svg>
+
+                <!-- youtube -->
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-youtube"
+                >
+                  <path
+                    d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"
+                  />
+                  <path d="m10 15 5-3-5-3z" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="lg:flex lg:flex-col lg:w-[450px] hidden m-auto gap-5 z-100"
+          >
+            <h1 class="text-white font-bold text-xl">Contact</h1>
+            <button class="text-white lg:w-[181px] bg-svay p-2 rounded-xl">
+              info@travel.com
+            </button>
+            <p class="text-white text-2xl font-bold">+ 01 483 593 284</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
